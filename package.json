@@ -1,6 +1,6 @@
 {
   "name": "fast-ai-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "AWS helper for deep learning instance",
   "main": "index.js",
   "repository": "ashtonsix/fast-ai-cli",

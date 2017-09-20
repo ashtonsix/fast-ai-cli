@@ -7,7 +7,11 @@ const getAMI = require('./getAMI')
 const argv = require('minimist')(process.argv)
 
 const getDetails = setup => {
-  const file = path.join(process.cwd(), argv.file || './fast-ai-instance.json')
+  const file = argv.file
+    ? argv.file.startsWith('/')
+      ? argv.file
+      : path.join(process.cwd(), argv.file)
+    : path.join(home(), './.fastai')
   if (!setup && !exists.sync(file)) {
     console.log(`"${file}" does not exist, have you ran "fa setup"?`)
     process.exit(1)
