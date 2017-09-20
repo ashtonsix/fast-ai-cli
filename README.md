@@ -68,3 +68,4 @@ Create a new notebbok & have fun! :phone: :princess: :horse: :smile:
 * Stop instances automatically (after 1 hour w/ no interaction & average CPU below 5%)
 * `fa start` creates an instance if none exists
 * Use tags instead of file to lookup details
+* Set initial password with an option
