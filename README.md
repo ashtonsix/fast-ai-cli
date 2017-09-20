@@ -33,7 +33,7 @@ jupyter notebook
 
 Run `fa open` in another terminal or, in your browser, go to `[YOUR_INSTANCE_URL]:8888`. The default password is `dl_course`.
 
-Create a new notebbok & have fun! :phone: :princess: :horse: :smile:
+Create a new notebook & have fun! :phone: :princess: :horse: :smile:
 
 **IMPORTANT:** Run `fa stop` when your done (you'll be charged $0.90/hour otherwise)
 
