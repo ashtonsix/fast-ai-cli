@@ -1,0 +1,23 @@
+{
+  "name": "fast-ai-cli",
+  "version": "0.0.0",
+  "description": "AWS util",
+  "main": "index.js",
+  "author": "Ashton Six <me@ashtonsix.com> (ashtonsix.com)",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "fa": "./index.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.118.0",
+    "file-exists": "^4.0.0",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "node-homedir": "^1.0.0",
+    "react-dev-utils": "^4.0.1"
+  },
+  "devDependencies": {}
+}
